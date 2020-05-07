@@ -1,12 +1,81 @@
+/* index.js */
 body {
   margin: 0;
   background: #100e17;
   font-family: Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+
+
+
+/* Header.js */
+.Header {
+  width:100%;
+  height:95%;
+  position:absolute;
+  border-bottom-left-radius: 45% 15%;
+  border-bottom-right-radius: 45% 15%;
+  background: #201c29;
+  box-shadow: 0 4px 80px #000;
+  color: #e52e71;
+  font-family: Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+
+
+/* Title.js */
+.Title {
+  text-align: center;
+}
+
 h1 {
   font-style: normal;
   font-weight: 700;
   margin-bottom: 0;
   padding-bottom: 0;
   font-size: 3em;
+}
+
+h3{
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.25em;
+}
+
+.discover{
+  background-image: linear-gradient(to bottom right,#ff8a00,#e52e71);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+  border: 0;
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin: 15px;
+}
+
+
+
+/* NavBar.js */
+.NavBar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/* NavButton.js */
+.NavButton {
+  width: 12%;
+  border: 2px solid #e52e71;
+  padding: 20px 30px;
+  border-radius: 8px;
+  background: #201c29;
+  background: -webkit-linear-gradient(#ff8a00,#e52e71);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  cursor: pointer;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/containers.css';
 import NavBar from '../components/NavBar';
 import Title from '../components/Title'
 
