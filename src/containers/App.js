@@ -7,13 +7,16 @@ import Contact from './Contact';
 import { Route } from 'react-router-dom';
 
 function App() {
+
+  const buttons = ["Home", "About", "Resume", "Projects", "Contact"]
+
   return (
     <div className="App">
-      <Route exact path="/" component={Title}/>
-      <Route path="/about" component={About}/>
-      <Route path="/resume" component={Resume}/>
-      <Route path="/projects" component={Projects}/>
-      <Route path="/contact" component={Contact}/>
+      <Route exact path="/" render={()=> <Title buttons={buttons} />}/>
+      <Route path="/about" render={()=> <About buttons={buttons} />}/>
+      <Route path="/resume" render={()=> <Resume buttons={buttons} />}/>
+      <Route path="/projects" render={()=> <Projects buttons={buttons} />}/>
+      <Route path="/contact" render={()=> <Contact buttons={buttons} />}/>
     </div>
   );
 }

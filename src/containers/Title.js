@@ -4,12 +4,9 @@ import { Link } from 'react-router-dom';
 
 class Title extends React.Component{
   render(){
-
-    const buttons = ["About", "Resume", "Projects", "Contact"]
-
     return(
       <div className="title">
-        <NavBar buttons={buttons}/><br/><br/>
+        <NavBar buttons={this.props.buttons}/><br/><br/>
         <div className="myinfo">
           <h1>Chris (Ikhwan) Kim</h1>
           <h3>| Software Developer | JavaScript | React | Node.js |</h3>
