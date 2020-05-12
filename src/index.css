@@ -90,14 +90,26 @@ h3{
   padding: 75px;
 }
 
-
-/* About.js */
 .about, .resume, .projects, .contact{
   height: 100vh;
   overflow-y: scroll;
   margin-bottom: 50px;
 }
 
+
+
+/* About.js */
+.about .main{
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+
+.profile{
+  width: 50%;
+  height: 50%;
+  padding-right: 50px;
+}
 
 
 /* NavBar.js */
