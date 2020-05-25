@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Toronto from './assets/yyz.jpg'
 
 class Contact extends React.Component{
   render(){
@@ -11,10 +12,26 @@ class Contact extends React.Component{
             <h1>Contact Me</h1>
           </div>
           <div className="main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
+            <div className="w3-center w3-margin-top">
+              <div className="w3-third w3-margin-bottom">
+                  <h4 className="w3-text-pink">LOCATION</h4>
+                  <div className="w3-xlarge fa fa-map-marker"></div>
+                  <h5>Toronto, Ontario</h5>
+              </div>
+              <div className="w3-third w3-margin-bottom">
+                  <h4 className="w3-text-pink">EMAIL</h4>
+                  <div className="w3-xlarge fa fa-envelope"></div>
+                  <h5>ikim1991@gmail.com</h5>
+              </div>
+              <div className="w3-third w3-margin-bottom">
+                  <h4 className="w3-text-pink">PHONE</h4>
+                  <div className="w3-xlarge fa fa-phone"></div>
+                  <h5>(780) 932-0907</h5>
+              </div>
+            </div>
+            <div className="w3-center">
+              <img src={Toronto} alt="portrait" style={{width: 1200}}/>
+            </div>
           </div>
           <div className="filler">
           </div>

@@ -46,6 +46,10 @@ h3{
   font-size: 1.25em;
 }
 
+li{
+  list-style-type: circle;
+}
+
 .discover{
   background-image: linear-gradient(to bottom right,#ff8a00,#e52e71);
   color: #fff;
@@ -80,10 +84,6 @@ h3{
   border: 2px solid #e52e71;
   border-radius: 8px;
   padding: 50px 50px;
-  background: #201c29;
-  background: -webkit-linear-gradient(#ff8a00,#e52e71);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
 }
 
 .filler{
@@ -93,6 +93,7 @@ h3{
 .about, .resume, .projects, .contact{
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   margin-bottom: 50px;
 }
 
@@ -102,6 +103,10 @@ h3{
 .about .main{
   display: flex;
   flex-wrap: no-wrap;
+  background: #201c29;
+  background: -webkit-linear-gradient(#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -110,6 +115,48 @@ h3{
   height: 50%;
   padding-right: 50px;
 }
+
+
+/* Resume.js */
+.resume-hover{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+}
+
+.resume-grid-item{
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right,#ff8a00,#e52e71);
+}
+
+.resume-content{
+  background: #201c29;
+  background: -webkit-linear-gradient(#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Projects.js */
+.projects .main{
+  background: #201c29;
+  background: -webkit-linear-gradient(#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Contact.js */
+.contact .main{
+  background: #201c29;
+  background: -webkit-linear-gradient(#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 /* NavBar.js */
