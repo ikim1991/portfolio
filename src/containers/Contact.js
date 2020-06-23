@@ -30,7 +30,7 @@ class Contact extends React.Component{
               </div>
             </div>
             <div className="w3-center">
-              <img src={Toronto} alt="portrait" style={{width: 1200}}/>
+              <img src={Toronto} alt="portrait" style={{width: "100%"}}/>
             </div>
           </div>
           <div className="filler">

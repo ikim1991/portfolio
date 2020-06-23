@@ -14,10 +14,19 @@ class About extends React.Component{
           <div className="main">
             <img className="profile" src={Profile} alt="Profile"/>
             <div className="about-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br/>
+              <h2>About the Developer</h2>
+              <p>Chris is a self-taught software developer with a degree in chemical engineering from the University of Alberta. He is interested in web development and specializes in building web applications using JavaScript, mainly on React and Nodejs.</p>
+              <p>Chris is currently looking for a junior to intermediate position as a full-stack web developer.</p>
+              <p>Other interests includes:</p>
+              <ul>
+                <li>Dev Ops</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+              </ul>
+              <br/>
+              <p>To see Chris' journey to becoming a web developer, refer to the following link: <a href="https://google.ca" target="_blank">INSERT LINK HERE</a></p>
+              <br/>
+              <p>To see projects Chris has been working on, refer to the following link: <a href="https://google.ca" target="_blank">INSERT LINK HERE</a></p>
             </div>
           </div>
           <div className="filler">
