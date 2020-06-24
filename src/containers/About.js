@@ -24,9 +24,9 @@ class About extends React.Component{
                 <li>Data Science</li>
               </ul>
               <br/>
-              <p>To see Chris' journey to becoming a web developer, refer to the following link: <a href="https://google.ca" target="_blank">INSERT LINK HERE</a></p>
+              <p>To see Chris' journey to becoming a web developer, refer to the following link: <a href="https://google.ca" target="_blank" rel="noopener noreferrer">INSERT LINK HERE</a></p>
               <br/>
-              <p>To see projects Chris has been working on, refer to the following link: <a href="https://google.ca" target="_blank">INSERT LINK HERE</a></p>
+              <p>To see projects Chris has been working on, refer to the following link: <a href="https://google.ca" target="_blank" rel="noopener noreferrer">INSERT LINK HERE</a></p>
             </div>
           </div>
           <div className="filler">

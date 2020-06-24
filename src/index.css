@@ -58,6 +58,10 @@ li{
   list-style-type: circle;
 }
 
+a{
+  text-decoration: none;
+}
+
 .discover{
   background-image: linear-gradient(to bottom right,#ff8a00,#e52e71);
   color: #fff;

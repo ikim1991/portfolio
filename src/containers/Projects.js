@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Profile from './assets/profile.jpg';
 import data from '../data/projects'
 
 class Projects extends React.Component{
@@ -79,8 +78,8 @@ class Projects extends React.Component{
                 </div>
                 <h6>LINKS</h6>
                 <div className="projects-links">
-                  <a href={data[this.state.navigator].github} target="_blank">[GitHub Repo]</a><br/>
-                  <a href={data[this.state.navigator].deployment} target="_blank">[Deployment]</a>
+                  <a href={data[this.state.navigator].github} target="_blank" rel="noopener noreferrer">[GitHub Repo]</a><br/>
+                  <a href={data[this.state.navigator].deployment} target="_blank" rel="noopener noreferrer">[Deployment]</a>
                 </div>
               </div>
             </div>
