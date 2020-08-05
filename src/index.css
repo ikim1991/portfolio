@@ -160,6 +160,47 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
+.projects-modal{
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0.95;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  padding: 25px;
+  left: 0;
+  top: 0;
+}
+
+.exit{
+  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.exit:hover{
+  font-weight: bold;
+}
+
+.modal-images{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.modal-image{
+  width: 90%;
+  cursor: pointer;
+}
+
+.modal-text{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .navigator{
   color: #ffffff;
   text-align: center;
@@ -209,7 +250,6 @@ a{
   padding: 25px;
   border: 1px solid white;
   display: grid;
-  grid-template-rows: auto;
 }
 
 .projects-lists{
@@ -218,6 +258,22 @@ a{
 
 .projects-links{
   align-items: end;
+}
+
+.projects-image{
+  cursor: pointer;
+}
+
+.projects-image:hover{
+  transform: scale(1.1);
+}
+
+.view-images{
+  cursor: pointer;
+}
+
+.view-images:hover{
+  font-size: 1.5em;
 }
 
 

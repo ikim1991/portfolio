@@ -6,8 +6,17 @@ class Projects extends React.Component{
   constructor(){
     super()
     this.state = {
-      navigator: 1
+      navigator: 1,
+      imageNumber: 0
     }
+  }
+
+  componentDidMount(){
+    document.addEventListener("keydown", function(e){
+      if(e.keyCode === 27){
+        document.getElementById("modal").style.visibility = "hidden"
+      }
+    })
   }
 
   createDots(){
@@ -44,6 +53,24 @@ class Projects extends React.Component{
     }
   }
 
+  onModalExit = (e) => {
+    e.target.parentElement.style.visibility = "hidden"
+  }
+
+  onModalOpen = (e) => {
+    document.getElementById("modal").style.visibility = "visible"
+  }
+
+  nextImage = (e) => {
+    if(this.state.imageNumber === data[this.state.navigator].imageurl.length - 1){
+      this.setState({ imageNumber: 0})
+    } else{
+      this.setState((state) => {
+        return { imageNumber: state.imageNumber + 1}
+      })
+    }
+  }
+
   render(){
     return (
       <div>
@@ -53,6 +80,13 @@ class Projects extends React.Component{
             <h1>My Projects</h1>
           </div>
           <div className="main">
+            <div className="projects-modal" id="modal">
+              <div className="exit" onClick={this.onModalExit}>X</div>
+              <div className="modal-text">{`(${this.state.imageNumber + 1}/${data[this.state.navigator].imageurl.length}) ${data[this.state.navigator].imagetext[this.state.imageNumber]}`}</div>
+              <div className="modal-images"><img className="modal-image" src={`portfolio${data[this.state.navigator].imageurl[this.state.imageNumber]}`} alt="Profile" onClick={this.nextImage}/></div>
+              <div className="filler">
+              </div>
+            </div>
             <div className="navigator w3-padding">
               <i className="fa fa-arrow-left w3-xxlarge left-arrow" onClick={this.onLeftClick}></i>
               {this.createDots()}
@@ -60,8 +94,9 @@ class Projects extends React.Component{
             </div>
             <div className="projects-content">
               <div className="projects-grid-header">
-                <h3 className="w3-margin-bottom">{data[this.state.navigator].title}</h3>
-                <img src={`portfolio${data[this.state.navigator].url}`} alt="Profile" style={{width: 400, height:400, padding: 10}}/>
+                <h2 className="w3-margin-bottom">{data[this.state.navigator].title}</h2>
+                <img className="projects-image" src={`portfolio${data[this.state.navigator].url}`} alt="Profile" style={{width: 400, height:400, padding: 10}} onClick={this.onModalOpen}/>
+                <h4 className="view-images" onClick={this.onModalOpen}>View Project</h4>
               </div>
               <div className="projects-grid-body">
                 <div>
@@ -69,21 +104,27 @@ class Projects extends React.Component{
                   <p>{data[this.state.navigator].summary}</p>
                 </div>
                 <div className="projects-list">
-                  <h6>TECHNOLOGIES AND FRAMEWORKS</h6>
+                  <h6>TECHNOLOGIES USED</h6>
                   <ul>
                     {data[this.state.navigator].technologies.map((li, ind) => {
                       return (<li className="projects-technologies" key={ind}>{li}</li>)
                     })}
                   </ul>
                 </div>
-                <h6>LINKS</h6>
                 <div className="projects-links">
-                  <a href={data[this.state.navigator].github} target="_blank" rel="noopener noreferrer">[GitHub Repo]</a><br/>
-                  <a href={data[this.state.navigator].deployment} target="_blank" rel="noopener noreferrer">[Deployment]</a>
+                  <h6>REFERENCES</h6>
+                  {data[this.state.navigator].links.map((li, ind) => {
+                    if(ind === 0){
+                      return (<p key={ind}>Deployed Site: <a href={li}>{li}</a></p>)
+                    } else if(ind === 1){
+                      return (<p key={ind}>Front-end: <a href={li}>{li}</a></p>)
+                    } else{
+                      return (<p key={ind}>Back-end: <a href={li}>{li}</a></p>)
+                    }
+                  })}
                 </div>
               </div>
             </div>
-
 
           </div>
           <div className="filler">

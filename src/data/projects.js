@@ -1,46 +1,82 @@
 const data = {
   1: {
-    title: "PROJECT TITLE 1",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Interactive BlackJack Web App",
+    summary: "A real-time interactive game of Six-Deck BlackJack of up to 5 players. Features include multiple servers to join and play from, and an interactive in-game chat messenger. The game is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. For best experience, it is recommended to play on a 16:9 aspect ratio resolution.",
     technologies: [
-      "One",
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "SocketIO"
     ],
-    github: "https://google.ca",
-    deployment: "https://google.ca",
-    url: "/assets/profile.jpg"
+    links: ["https://ikim1991.github.io/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-api/"],
+    imageurl: [
+      "/assets/blackjack/login.png",
+      "/assets/blackjack/servers.png",
+      "/assets/blackjack/register.png",
+      "/assets/blackjack/lobby.png",
+      "/assets/blackjack/game-rules.png",
+      "/assets/blackjack/betting.png",
+      "/assets/blackjack/luckylucky.png",
+      "/assets/blackjack/gameplay.png",
+      "/assets/blackjack/gameplay2.png",
+      "/assets/blackjack/dealer.png",
+      "/assets/blackjack/dealer-push.png",
+    ],
+    imagetext: [
+      "Main Login Page (Screenshot from 1920x1080 Resolution)",
+      "Choose from different servers to join (Screenshot from 1920x1080 Resolution)",
+      "Register Page (Screenshot from 1920x1080 Resolution)",
+      "Lobby (Screenshot from 1920x1080 Resolution)",
+      "Game Rules (Screenshot from 1920x1080 Resolution)",
+      "Betting Phase (Screenshot from 1920x1080 Resolution)",
+      "Checking for Lucky Lucky Winners (Screenshot from 1920x1080 Resolution)",
+      "Gameplay 1 (Screenshot from 1920x1080 Resolution)",
+      "Gameplay 2 (Screenshot from 1920x1080 Resolution)",
+      "Dealer (Screenshot from 1920x1080 Resolution)",
+      "Dealer Push (Screenshot from 1920x1080 Resolution)"
+    ],
+    url: "/assets/blackjack/blackjack.jpg"
   },
   2: {
-    title: "PROJECT TITLE 2",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Interactive BlackJack Web App",
+    summary: "A real-time interactive game of Six-Deck BlackJack of up to 5 players. Features include multiple servers to join and play from, and an interactive in-game chat messenger. The game is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. For best experience, it is recommended to play on a 16:9 aspect ratio resolution.",
     technologies: [
-      "One",
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "SocketIO"
     ],
-    github: "https://google.ca",
-    deployment: "https://google.ca",
-    url: "/assets/profile.jpg"
-  },
-  3: {
-    title: "PROJECT TITLE 3",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    technologies: [
-      "One",
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+    links: ["https://ikim1991.github.io/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-api/"],
+    imageurl: [
+      "/assets/blackjack/login.png",
+      "/assets/blackjack/servers.png",
+      "/assets/blackjack/register.png",
+      "/assets/blackjack/lobby.png",
+      "/assets/blackjack/game-rules.png",
+      "/assets/blackjack/betting.png",
+      "/assets/blackjack/luckylucky.png",
+      "/assets/blackjack/gameplay.png",
+      "/assets/blackjack/gameplay2.png",
+      "/assets/blackjack/dealer.png",
+      "/assets/blackjack/dealer-push.png",
     ],
-    github: "https://google.ca",
-    deployment: "https://google.ca",
-    url: "/assets/profile.jpg"
-  },
+    imagetext: [
+      "Main Login Page (Screenshot from 1920x1080 Resolution)",
+      "Choose from different servers to join (Screenshot from 1920x1080 Resolution)",
+      "Register Page (Screenshot from 1920x1080 Resolution)",
+      "Lobby (Screenshot from 1920x1080 Resolution)",
+      "Game Rules (Screenshot from 1920x1080 Resolution)",
+      "Betting Phase (Screenshot from 1920x1080 Resolution)",
+      "Checking for Lucky Lucky Winners (Screenshot from 1920x1080 Resolution)",
+      "Gameplay 1 (Screenshot from 1920x1080 Resolution)",
+      "Gameplay 2 (Screenshot from 1920x1080 Resolution)",
+      "Dealer (Screenshot from 1920x1080 Resolution)",
+      "Dealer Push (Screenshot from 1920x1080 Resolution)"
+    ],
+    url: "/assets/blackjack/blackjack.jpg"
+  }
 }
 
 export default data
