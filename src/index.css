@@ -121,6 +121,10 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
+.about-content{
+  font-size: 1.2em;
+}
+
 
 .profile{
   width: 50%;

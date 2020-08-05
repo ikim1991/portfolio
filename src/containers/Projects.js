@@ -115,11 +115,11 @@ class Projects extends React.Component{
                   <h6>REFERENCES</h6>
                   {data[this.state.navigator].links.map((li, ind) => {
                     if(ind === 0){
-                      return (<p key={ind}>Deployed Site: <a href={li}>{li}</a></p>)
+                      return (<p key={ind}>Deployed Website: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     } else if(ind === 1){
-                      return (<p key={ind}>Front-end: <a href={li}>{li}</a></p>)
+                      return (<p key={ind}>Front-end: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     } else{
-                      return (<p key={ind}>Back-end: <a href={li}>{li}</a></p>)
+                      return (<p key={ind}>Back-end: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     }
                   })}
                 </div>

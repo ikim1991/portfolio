@@ -153,9 +153,8 @@ class Resume extends React.Component{
                       <h5><b>Full Stack Web Developing</b></h5>
                   </div>
                   <div class="w3-col w3-threequarter w3-padding-large w3-leftbar w3-border-pink">
-                      <h5 class="w3-left-align">Self-taught Bootcamp</h5>
-                      <div class="w3-left-align w3-margin-left">Self-taught Bootcamp created to learn Computer Science and Web Developing.</div>
-                      <div class="w3-left-align w3-margin-left">Refer to the following link to see the contents of my self-taught program: <a href="https://google.ca" target="_blank" rel="noopener noreferrer">LINK HERE</a></div>
+                      <h5 class="w3-left-align">Home-made Bootcamp Program</h5>
+                      <div class="w3-left-align w3-margin-left">Self-taught in Computer Science and Web Developing.</div>
                   </div>
                   <div class="w3-col w3-quarter w3-padding-large w3-center">
                       <h5><b>Chemical Engineering</b></h5>
