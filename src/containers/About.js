@@ -16,13 +16,13 @@ class About extends React.Component{
             <img className="profile" src={Profile} alt="Profile"/>
             <div className="about-content">
               <h2>About the Developer</h2>
-              <p>Chris is a full-stack web developer who is specializing in JavaScript. He likes working with React to create front-end applications while utilizing Node.js on the back-end to create server-side applicatons. He also prefers working with MongoDB's NoSQL databases but is also knowledgeable working with SQL databases.</p>
-              <p>As a life-long learner, he is always interested in working with new technologies and expanding his toolkit. He is also fond of Python and is hoping to utilizing it more when the opportunity arises.</p>
-              <p>Currently, he is looking for career opportunities as a Web Developer/Software Developer.</p>
-              <p>He is experienced in building Web Applications such a messenger apps, games such as BlackJack, and personalized dashboards with various functionality. These projects and several more can be found in the links below.</p>
-              <br/>
-              <Link to="/projects">- Project Portfolio</Link>
-              <p><a href="https://github.com/ikim1991" target="_blank" rel="noopener noreferrer">- GitHub Repository</a></p>
+              <p>As a self-taught software developer I enjoy building progressive web applications, whether it be creating a game just for fun or building tools to make my life a little bit easier. I am a fan of all things JavaScript and like working with modern frameworks and technologies such as React and Node.js.</p>
+              <p>After +2 years of teaching myself to program and playing around with different technologies, I am looking to switch gears and transition it from a hobby to a profession. I am currently looking for career opportunities as a full-stack web developer.</p>
+              <p>Over the years I have built and deployed several web applications such as real-time chat apps, browser based games, and personalized dashboards. For more details, check out my GitHub and Portfolio in the links below.</p>
+              <ul style={{paddingInlineStart: "20px"}}>
+                <li style={{listStyleType: "none"}}><Link to="/projects">- Project Portfolio</Link></li>
+                <li style={{listStyleType: "none"}}><a href="https://github.com/ikim1991" target="_blank" rel="noopener noreferrer">- GitHub Repository</a></li>
+              </ul>
             </div>
           </div>
           <div className="filler">

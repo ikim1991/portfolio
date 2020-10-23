@@ -12,11 +12,17 @@ class Projects extends React.Component{
   }
 
   componentDidMount(){
-    document.addEventListener("keydown", function(e){
-      if(e.keyCode === 27){
-        document.getElementById("modal").style.visibility = "hidden"
-      }
-    })
+    document.addEventListener("keydown", this.handleEscKey)
+  }
+
+  componentWillUnmount(){
+    document.removeEventListener("keydown", this.handleEscKey)
+  }
+
+  handleEscKey(e){
+    if(e.keyCode === 27){
+      document.getElementById("modal").style.visibility = "hidden"
+    }
   }
 
   createDots(){
@@ -115,11 +121,11 @@ class Projects extends React.Component{
                   <h6>REFERENCES</h6>
                   {data[this.state.navigator].links.map((li, ind) => {
                     if(ind === 0){
-                      return (<p key={ind}>Deployed Website: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
+                      return (<p className="projects-links-p" key={ind}>Website: <a className="projects-links-a" href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     } else if(ind === 1){
-                      return (<p key={ind}>Front-end: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
+                      return (<p className="projects-links-p" key={ind}>Front-end: <a className="projects-links-a" href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     } else{
-                      return (<p key={ind}>Back-end: <a href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
+                      return (<p className="projects-links-p" key={ind}>Back-end: <a className="projects-links-a" href={li} target="_blank" rel="noopener noreferrer">{li}</a></p>)
                     }
                   })}
                 </div>

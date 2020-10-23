@@ -9,7 +9,7 @@ class Title extends React.Component{
         <NavBar buttons={this.props.buttons}/><br/><br/>
         <div className="myinfo">
           <h1>Chris (Ikhwan) Kim</h1>
-          <h3>| Software Developer | JavaScript | React | Node.js |</h3>
+          <h3>| Web Developer | JavaScript | React | Node.js |</h3>
           <a href="https://github.com/ikim1991" className="w3-bar-item w3-button w3-xxlarge" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
           <a href="https://linkedin.com/in/ikim91/" className="w3-bar-item w3-button w3-xxlarge" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
           <a href="https://instagram.com/ikim91/" className="w3-bar-item w3-button w3-xxlarge" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>

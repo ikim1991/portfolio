@@ -132,7 +132,6 @@ a{
   padding-right: 50px;
 }
 
-
 /* Resume.js */
 .resume-hover{
   width: 100%;
@@ -262,6 +261,12 @@ a{
 
 .projects-links{
   align-items: end;
+}
+.projects-links-p{
+  font-weight: bold;
+}
+.projects-links-a{
+  font-weight: normal;
 }
 
 .projects-image{
