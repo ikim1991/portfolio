@@ -1,12 +1,45 @@
 const data = {
   1: {
+    title: "My Dashboard",
+    summary: "To help myself be more productive, I created a personalized dashboard web application. The dashboard consists of a task manager (to-do list), a collection of developer-related job postings from 4 different sources, and the intraday data as well as news and press releases from the stocks I am intereted in. The app is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
+    technologies: [
+      "React",
+      "Redux",
+      "Node.js / Express",
+      "MongoDB / Mongoose",
+      "JWT"
+    ],
+    links: ["https://ikim1991.github.io/my-dashboard-app/", "https://github.com/ikim1991/my-dashboard-app/", "https://github.com/ikim1991/my-dashboard-app-api/"],
+    imageurl: [
+      "/assets/dashboard/login.png",
+      "/assets/dashboard/register.png",
+      "/assets/dashboard/onregister.png",
+      "/assets/dashboard/addstocktickers.png",
+      "/assets/dashboard/financialdata.png",
+      "/assets/dashboard/jobpostings.png",
+      "/assets/dashboard/newtask.png",
+      "/assets/dashboard/todolist.png"
+    ],
+    imagetext: [
+      "Login page. (Screenshot from 1366x768 Resolution)",
+      "Register page. (Screenshot from 1366x768 Resolution)",
+      "Main page on first load after registering. (Screenshot from 1366x768 Resolution)",
+      "By clicking on the stock ticker boxes you can personalize and add data to your dashboard. (Screenshot from 1366x768 Resolution)",
+      "After updating your stock ticker data, it will display the intraday data and recent news or press releases from the companies. (Screenshot from 1366x768 Resolution)",
+      "By hitting the refresh button, you can populate a list of job postings from Indeed. It is currently set to populate postings for developer roles within 4 different cities. (Screenshot from 1366x768 Resolution)",
+      "Create and add new tasks to your To-Do list. (Screenshot from 1366x768 Resolution)",
+      "An example of what the dashboard could look like. (Screenshot from 1366x768 Resolution)"
+    ],
+    url: "/assets/dashboard/dashboard.jpg"
+  },
+  2: {
     title: "My Golf Tracker",
     summary: "As an avid golfer wanting to improve his game, I developed this web application to track my progress. By recording all the rounds I play and visualizing the data, I hope to improve and track my progress in the life-long struggle of a game we call golf. The app is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
     technologies: [
       "React",
       "Redux",
-      "Node.js",
-      "Express",
+      "Node.js / Express",
+      "MongoDB / Mongoose",
       "Chartjs"
     ],
     links: ["https://ikim1991.github.io/my-golf-tracker/", "https://github.com/ikim1991/my-golf-tracker/", "https://github.com/ikim1991/my-golf-tracker-api/"],
@@ -26,7 +59,7 @@ const data = {
     ],
     url: "/assets/golf-tracker/golf.jpg"
   },
-  2: {
+  3: {
     title: "Interactive BlackJack App",
     summary: "A real-time interactive game of Six-Deck BlackJack of up to 5 players just for fun. Features include multiple servers to join and play from, and an interactive in-game chat messenger. The game is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
     technologies: [
