@@ -4,7 +4,7 @@ import About from './About';
 import Resume from './Resume';
 import Projects from './Projects';
 import Contact from './Contact';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
 
@@ -12,11 +12,13 @@ function App() {
 
   return (
     <div className="App">
-      <Route path="/portfolio" render={()=> <Title buttons={buttons} />}/>
-      <Route path="/about" render={()=> <About buttons={buttons} />}/>
-      <Route path="/resume" render={()=> <Resume buttons={buttons} />}/>
-      <Route path="/projects" render={()=> <Projects buttons={buttons} />}/>
-      <Route path="/contact" render={()=> <Contact buttons={buttons} />}/>
+      <Switch>
+        <Route exact path="/" render={()=> <Title buttons={buttons} />}/>
+        <Route exact path="/about" render={()=> <About buttons={buttons} />}/>
+        <Route exact path="/resume" render={()=> <Resume buttons={buttons} />}/>
+        <Route exact path="/projects" render={()=> <Projects buttons={buttons} />}/>
+        <Route exact path="/contact" render={()=> <Contact buttons={buttons} />}/>
+      </Switch>
     </div>
   );
 }
