@@ -68,6 +68,7 @@ class Resume extends React.Component{
                     <div className="w3-bar-item w3-text w3-text-pink"><b>Working Knowledge</b></div>
                     <div className="w3-bar-item w3-text w3-hover-pink">HTML & CSS</div>
                     <div className="w3-bar-item w3-text w3-hover-pink">JavaScript</div>
+                    <div className="w3-bar-item w3-text w3-hover-pink">TypeScript</div>
                     <div className="w3-bar-item w3-text w3-hover-pink">Node.js</div>
                     <div className="w3-bar-item w3-text w3-hover-pink">React</div>
                     <div className="w3-bar-item w3-text w3-hover-pink">SQL - MySQL/PostgreSQL</div>
