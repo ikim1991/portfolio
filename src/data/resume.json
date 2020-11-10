@@ -1,0 +1,132 @@
+{
+    "work": {
+        "current": {
+            "company": "Moxies Bar & Grill Downtown",
+            "title": "Server",
+            "url": "https://moxies.com/restaurant-locations/ontario/toronto-restaurant/toronto-downtown",
+            "length": "Jan 2019 - Present"
+        },
+        "past": [
+            {
+                "company": "Flair Flexible Packaging",
+                "title": "Product Processing Specialist",
+                "city": "Calgary, AB",
+                "url": "http://www.flairpackaging.com/home",
+                "length": "May 2017 - Jul 2018"
+            },
+            {
+                "company": "Days Inn & Conference Center by Wyndham Bridgewater",
+                "title": "General Manager",
+                "city": "Bridgewater, NS",
+                "url": "https://www.wyndhamhotels.com/en-ca/days-inn/bridgewater-nova-scotia/days-inn-and-conference-center-bridgewater/overview?CID=LC:DI:20160927:Rio:Local&iata=00093796",
+                "length": "Aug 2014 - Nov 2016"
+            },
+            {
+                "company": "CF Industries",
+                "title": "Chemical Co-op Engineer",
+                "city": "Medicine Hat, AB",
+                "url": "https://www.cfindustries.com/who-we-are/locations/medicine-hat-nitrogen-facility",
+                "length": "May 2013 - Dec 2013"
+            },
+            {
+                "company": "OEM Remanufacturing",
+                "title": "Engineering Co-op",
+                "city": "Edmonton, AB",
+                "url": "http://www.oemreman.com/",
+                "length": "Sep 2012 - Dec 2012"
+            },
+            {
+                "company": "West Fraser - Slave Lake Pulp",
+                "title": "Junior Project Engineer Co-op",
+                "city": "Slave Lake, AB",
+                "url": "https://www.westfraser.com/company/locations/slave-lake-pulp",
+                "length": "May 2011 - Dec 2011"
+            }
+        ]
+    },
+    "certifications": {
+        "web": [
+            {
+                "name": "The Complete Web Developer Course",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"
+            },
+            {
+                "name": "The Complete Node.js Developer Course",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+            },
+            {
+                "name": "The Complete SQL Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/"
+            },            {
+                "name": "MongoDB - The Complete Developer's Guide",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/"
+            },            {
+                "name": "Front End Web Developer Nanodegree Program",
+                "source": "Udacity",
+                "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+            }
+        ],
+        "cs": [
+            {
+                "name": "Java Programming Masterclass",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/"
+            },
+            {
+                "name": "Data Structures and Algorithms",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
+            }
+            
+        ],
+        "jff": [
+            {
+                "name": "Machine Learning by Stanford",
+                "source": "Coursera",
+                "url": "https://www.coursera.org/learn/machine-learning"
+            },
+            {
+                "name": "The Complete Data Science Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/"
+            },
+            {
+                "name": "The Complete Python Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/complete-python-bootcamp/"
+            }
+        ]
+    },
+    "education": {
+        "undergrad": {
+            "program": "Chemical Engineering",
+            "at": "University of Alberta"
+        },
+        "self": {
+            "program": "Software Developer",
+            "at": "Self-taught Online"
+        }
+    },
+    "programming": {
+        "working": [
+            "TypeScript",
+            "Sass",
+            "React",
+            "Node.js",
+            "MongoDB",
+            "MySQL / PostgreSQL",
+            "Bash"
+        ],
+        "basic": [
+            "Java",
+            "Python",
+            "Machine Learning",
+            "Data Science",
+            "Dev Ops"
+        ]
+    }
+}

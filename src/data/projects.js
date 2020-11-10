@@ -5,7 +5,7 @@ const data = {
     technologies: [
       "React",
       "Redux",
-      "Node.js / Express",
+      "Node.js / Express.js",
       "MongoDB / Mongoose",
       "JWT"
     ],
@@ -38,7 +38,7 @@ const data = {
     technologies: [
       "React",
       "Redux",
-      "Node.js / Express",
+      "Node.js / Express.js",
       "MongoDB / Mongoose",
       "Chartjs"
     ],
@@ -66,7 +66,7 @@ const data = {
       "React",
       "Redux",
       "Node.js",
-      "Express",
+      "Express.js",
       "SocketIO"
     ],
     links: ["https://ikim1991.github.io/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-app/", "https://github.com/ikim1991/interactive-blackjack-api/"],
