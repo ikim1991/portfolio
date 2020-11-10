@@ -12,35 +12,40 @@
                 "title": "Product Processing Specialist",
                 "city": "Calgary, AB",
                 "url": "http://www.flairpackaging.com/home",
-                "length": "May 2017 - Jul 2018"
+                "length": "May 2017 - Jul 2018",
+                "summary": "SUMMARY OF JOB DESCRIPTION"
             },
             {
-                "company": "Days Inn & Conference Center by Wyndham Bridgewater",
+                "company": "Days Inn & Conference Center by Wyndham",
                 "title": "General Manager",
                 "city": "Bridgewater, NS",
                 "url": "https://www.wyndhamhotels.com/en-ca/days-inn/bridgewater-nova-scotia/days-inn-and-conference-center-bridgewater/overview?CID=LC:DI:20160927:Rio:Local&iata=00093796",
-                "length": "Aug 2014 - Nov 2016"
+                "length": "Aug 2014 - Nov 2016",
+                "summary": "SUMMARY OF JOB DESCRIPTION"
             },
             {
                 "company": "CF Industries",
                 "title": "Chemical Co-op Engineer",
                 "city": "Medicine Hat, AB",
                 "url": "https://www.cfindustries.com/who-we-are/locations/medicine-hat-nitrogen-facility",
-                "length": "May 2013 - Dec 2013"
+                "length": "May 2013 - Dec 2013",
+                "summary": "SUMMARY OF JOB DESCRIPTION"
             },
             {
                 "company": "OEM Remanufacturing",
                 "title": "Engineering Co-op",
                 "city": "Edmonton, AB",
                 "url": "http://www.oemreman.com/",
-                "length": "Sep 2012 - Dec 2012"
+                "length": "Sep 2012 - Dec 2012",
+                "summary": "SUMMARY OF JOB DESCRIPTION"
             },
             {
                 "company": "West Fraser - Slave Lake Pulp",
                 "title": "Junior Project Engineer Co-op",
                 "city": "Slave Lake, AB",
                 "url": "https://www.westfraser.com/company/locations/slave-lake-pulp",
-                "length": "May 2011 - Dec 2011"
+                "length": "May 2011 - Dec 2011",
+                "summary": "SUMMARY OF JOB DESCRIPTION"
             }
         ]
     },
@@ -104,11 +109,14 @@
     "education": {
         "undergrad": {
             "program": "Chemical Engineering",
-            "at": "University of Alberta"
+            "at": "University of Alberta",
+            "url": "https://www.ualberta.ca/chemical-materials-engineering",
+            "summary": "Bachelor of Science in Chemical Engineering with 20-month of Cooperative Work Experience"
         },
         "self": {
             "program": "Software Developer",
-            "at": "Self-taught Online"
+            "at": "Self-taught Online",
+            "summary": "SUMMARY OF PROGRAM"
         }
     },
     "programming": {

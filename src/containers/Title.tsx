@@ -2,7 +2,11 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import { Link } from 'react-router-dom';
 
-class Title extends React.Component{
+interface Props{
+  buttons: string[]
+}
+
+class Title extends React.Component<Props>{
   render(){
     return(
       <div className="title">
