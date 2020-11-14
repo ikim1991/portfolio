@@ -3,7 +3,7 @@
         {
             "title": "My Dashboard",
             "summary": "To help myself be more productive, I created a personalized dashboard web application. The dashboard consists of a task manager (to-do list), a collection of developer-related job postings from 4 different sources, and the intraday data as well as news and press releases from the stocks I am intereted in. The app is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
-            "front": ["TypeScript", "React", "Redux"],
+            "front": ["JavaScript", "React", "Redux"],
             "back": ["Node.js", "Express.js", "Mongoose / MongoDB", "JWT", "bcrypt"],
             "links": [
                 "https://ikim1991.github.io/my-dashboard-app/",
@@ -35,7 +35,7 @@
         {
             "title": "My Golf Tracker",
             "summary": "As an avid golfer wanting to improve his game, I developed this web application to track my progress. By recording all the rounds I play and visualizing the data, I hope to improve and track my progress in the life-long struggle of a game we call golf. The app is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
-            "front": ["TypeScript", "React", "Redux", "Chart.js"],
+            "front": ["JavaScript", "React", "Redux", "Chart.js"],
             "back": ["Node.js", "Express.js", "Mongoose / MongoDB"],
             "links": [
                 "https://ikim1991.github.io/my-golf-tracker/",
@@ -61,7 +61,7 @@
         {
             "title": "Interactive BlackJack App",
             "summary": "A real-time interactive game of Six-Deck BlackJack of up to 5 players just for fun. Features include multiple servers to join and play from, and an interactive in-game chat messenger. The game is currently not supported on mobile and tablets and has a minimum screen resolution width of 1024px. An 16:9 aspect ratio resolution is recommended.",
-            "front": ["TypeScript", "React", "Redux"],
+            "front": ["JavaScript", "React", "Redux"],
             "back": ["Node.js", "Express.js", "Socket.IO"],
             "links": [
                 "https://ikim1991.github.io/interactive-blackjack-app/",
