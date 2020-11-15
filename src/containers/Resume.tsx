@@ -97,7 +97,7 @@ class Resume extends React.Component<Props>{
                   </div>
                   <div className="w3-col w3-threequarter w3-padding-large w3-leftbar w3-border-pink">
                       <h5 className="w3-left-align">{data.education.self.at}</h5>
-                      <div className="w3-left-align w3-margin-left">{data.education.self.at}</div>
+                      <div className="w3-left-align w3-margin-left">{data.education.self.summary}</div>
                   </div>
                   <div className="w3-col w3-quarter w3-padding-large w3-center">
                       <h5><b>{data.education.undergrad.at}</b></h5>

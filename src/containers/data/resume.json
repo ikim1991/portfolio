@@ -13,7 +13,7 @@
                 "city": "Calgary, AB",
                 "url": "http://www.flairpackaging.com/home",
                 "length": "May 2017 - Jul 2018",
-                "summary": "SUMMARY OF JOB DESCRIPTION"
+                "summary": "Working in quality control of a flexible packaging supplier, responsible for implementing corrective action plans and maintaing a proactive quality management system to reduce non-conformance incidents and improve the company's bottom line and reputation."
             },
             {
                 "company": "Days Inn & Conference Center by Wyndham",
@@ -21,7 +21,7 @@
                 "city": "Bridgewater, NS",
                 "url": "https://www.wyndhamhotels.com/en-ca/days-inn/bridgewater-nova-scotia/days-inn-and-conference-center-bridgewater/overview?CID=LC:DI:20160927:Rio:Local&iata=00093796",
                 "length": "Aug 2014 - Nov 2016",
-                "summary": "SUMMARY OF JOB DESCRIPTION"
+                "summary": "Managing the operations of a medium sized hotel with 10 to 15 employees to deliver high level of customer service and maximize profit gains."
             },
             {
                 "company": "CF Industries",
@@ -29,7 +29,7 @@
                 "city": "Medicine Hat, AB",
                 "url": "https://www.cfindustries.com/who-we-are/locations/medicine-hat-nitrogen-facility",
                 "length": "May 2013 - Dec 2013",
-                "summary": "SUMMARY OF JOB DESCRIPTION"
+                "summary": "Managing several small to medium sized projects simultaneously in troubleshooting and optimizing process operations to help improve production efficiency and safety at an ammonia fertilizer plant."
             },
             {
                 "company": "OEM Remanufacturing",
@@ -37,7 +37,7 @@
                 "city": "Edmonton, AB",
                 "url": "http://www.oemreman.com/",
                 "length": "Sep 2012 - Dec 2012",
-                "summary": "SUMMARY OF JOB DESCRIPTION"
+                "summary": "Working in a machine, mainly responsible for document control and drafting mechanical drawings of equipment."
             },
             {
                 "company": "West Fraser - Slave Lake Pulp",
@@ -45,7 +45,7 @@
                 "city": "Slave Lake, AB",
                 "url": "https://www.westfraser.com/company/locations/slave-lake-pulp",
                 "length": "May 2011 - Dec 2011",
-                "summary": "SUMMARY OF JOB DESCRIPTION"
+                "summary": "Assisted in the project management of the Green Transformation Project to help reduce the company's carbon footprint and stay ahead of tightening environmental regulations and policies."
             }
         ]
     },
@@ -116,7 +116,7 @@
         "self": {
             "program": "Software Developer",
             "at": "Self-taught Online",
-            "summary": "SUMMARY OF PROGRAM"
+            "summary": "Learning the fundamentals of computer science and programming best practices through online learning."
         }
     },
     "programming": {
@@ -124,6 +124,7 @@
             "TypeScript",
             "Sass",
             "React",
+            "Redux",
             "Node.js",
             "MongoDB",
             "MySQL / PostgreSQL",
