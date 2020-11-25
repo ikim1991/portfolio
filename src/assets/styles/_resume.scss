@@ -1,0 +1,91 @@
+.resume-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.25%;
+}
+
+.resume-summary{
+    position: absolute;
+    width: 97.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: $font;
+    text-align: center;
+
+    .summary-container{
+        border: 1px $light solid;
+        color: $light;
+        background-color: $primary;
+        cursor: pointer;
+        font-family: $font;
+        font-size: 1.2em;
+        padding: 5% 0;
+    }
+
+    .summary-dropdown{
+        display: none;
+        background-color: $primary;
+        color: $light;
+        
+        h3:hover{
+            background-color: $primary;
+        }
+
+        p{
+            cursor: pointer;
+        }
+        p:hover{
+            background-color: $primary;
+        }
+    }
+}
+
+.work-experience{
+    margin-top: 10%;
+    width: 97.5%;
+    text-align: center;
+    color: $primary;
+    font-family: $font;
+    
+    h2{
+        border-bottom: 2px solid $primary;
+    }
+
+    .work-experiences{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        div:first-child{
+            margin-top: 5%;
+            padding: 25px;
+            border-right: 7px solid $primary;
+        }
+    }
+}
+
+.education{
+    margin-top: 2.5%;
+    width: 97.5%;
+    text-align: center;
+    color: $primary;
+    font-family: $font;
+    
+    h2{
+        border-bottom: 2px solid $primary;
+    }
+
+    .educations{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        div:first-child{
+            margin-top: 5%;
+            padding: 25px;
+            border-right: 7px solid $primary;
+        }
+    }
+}

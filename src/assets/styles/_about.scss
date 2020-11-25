@@ -1,0 +1,19 @@
+.about-content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    .profile-image{
+        width: 85%;
+        height: 85%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .aboutme{
+        width: 100%;
+        padding: 3%;
+        color: $primary;
+        font-family: $font;
+        font-size: 1em;
+    }
+}

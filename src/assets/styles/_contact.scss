@@ -1,0 +1,33 @@
+.contact-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .contact-me{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 1.25%;
+        width: 97.5%;
+        color: $primary;
+
+        div{
+            width: 100%;
+            color: $primary;
+            font-size: 2em;
+            padding: 1.5rem 2rem;
+            text-align: center;
+
+            a:last-child{
+                color: $primary;
+                text-decoration: none;
+            }
+        }
+    }
+
+    img{
+        margin-top: 1.25%;
+        width: 97.5%;
+        margin-bottom: 1.25%;
+    }
+}

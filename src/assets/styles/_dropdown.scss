@@ -1,0 +1,40 @@
+.dropdown{
+    position: absolute;
+    display: grid;
+    top: 16%;
+    left: 2.5%;
+    color: $light;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.bars{
+    padding: 1px 10px;
+    position: absolute;
+    background-color: $primary;
+}
+
+.bars:hover{
+    color: darken($light, 10);
+}
+
+.dropdown-items{
+    
+    margin-top: 0;
+    background-color: darken($light, 10);
+
+    p{
+        padding: 0 30px;
+        text-align: center;
+        margin: 0;
+        font-size: 0.5em;
+        cursor: pointer;
+    }
+    p:hover{
+        background-color: lighten($light, 20);
+    }
+}
+
+.hidden{
+    visibility: hidden;
+}
