@@ -19,11 +19,17 @@ body{
     height: 100vh;
 }
 
+a{
+    color: $light;
+    text-decoration: none;
+}
+
 @import 'header.scss';
 @import 'dropdown.scss';
 @import 'title.scss';
 @import 'navigation.scss';
 @import 'main.scss';
+
 
 // Custom Scrollbar from w3schools.com
 /* width */

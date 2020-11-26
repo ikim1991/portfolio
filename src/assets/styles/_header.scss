@@ -17,6 +17,11 @@
         justify-content: flex-end;
         color: $primary;
 
+        a{
+            color: $primary;
+            text-decoration: none;
+        }
+
         i{
             margin: 0 10px;
             cursor: pointer;

@@ -12,7 +12,7 @@ const App = () => {
     return(
         <div className='App'>
             <Header/>
-            <About/>
+            <Contact/>
         </div>
     )
 };

@@ -1,0 +1,141 @@
+{
+    "work": {
+        "current": {
+            "company": "Moxies Bar & Grill Downtown",
+            "title": "Server",
+            "url": "https://moxies.com/restaurant-locations/ontario/toronto-restaurant/toronto-downtown",
+            "length": "Jan 2019 - Present"
+        },
+        "past": [
+            {
+                "company": "Flair Flexible Packaging",
+                "title": "Product Processing Specialist",
+                "city": "Calgary, AB",
+                "url": "http://www.flairpackaging.com/home",
+                "length": "May 2017 - Jul 2018",
+                "summary": "Working in quality control of a flexible packaging supplier, responsible for implementing corrective action plans and maintaing a proactive quality management system to reduce non-conformance incidents and improve the company's bottom line and reputation."
+            },
+            {
+                "company": "Days Inn & Conference Center by Wyndham",
+                "title": "General Manager",
+                "city": "Bridgewater, NS",
+                "url": "https://www.wyndhamhotels.com/en-ca/days-inn/bridgewater-nova-scotia/days-inn-and-conference-center-bridgewater/overview?CID=LC:DI:20160927:Rio:Local&iata=00093796",
+                "length": "Aug 2014 - Nov 2016",
+                "summary": "Managing the operations of a medium sized hotel with 10 to 15 employees to deliver high level of customer service and maximize profit gains."
+            },
+            {
+                "company": "CF Industries",
+                "title": "Chemical Co-op Engineer",
+                "city": "Medicine Hat, AB",
+                "url": "https://www.cfindustries.com/who-we-are/locations/medicine-hat-nitrogen-facility",
+                "length": "May 2013 - Dec 2013",
+                "summary": "Managing several small to medium sized projects simultaneously in troubleshooting and optimizing process operations to help improve production efficiency and safety at an ammonia fertilizer plant."
+            },
+            {
+                "company": "OEM Remanufacturing",
+                "title": "Engineering Co-op",
+                "city": "Edmonton, AB",
+                "url": "http://www.oemreman.com/",
+                "length": "Sep 2012 - Dec 2012",
+                "summary": "Working in a machine, mainly responsible for document control and drafting mechanical drawings of equipment."
+            },
+            {
+                "company": "West Fraser - Slave Lake Pulp",
+                "title": "Junior Project Engineer Co-op",
+                "city": "Slave Lake, AB",
+                "url": "https://www.westfraser.com/company/locations/slave-lake-pulp",
+                "length": "May 2011 - Dec 2011",
+                "summary": "Assisted in the project management of the Green Transformation Project to help reduce the company's carbon footprint and stay ahead of tightening environmental regulations and policies."
+            }
+        ]
+    },
+    "certifications": {
+        "web": [
+            {
+                "name": "The Complete Web Developer Course",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"
+            },
+            {
+                "name": "The Complete Node.js Developer Course",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+            },
+            {
+                "name": "The Complete SQL Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/"
+            },            {
+                "name": "MongoDB - The Complete Developer's Guide",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/"
+            },            {
+                "name": "Front End Web Developer Nanodegree Program",
+                "source": "Udacity",
+                "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+            }
+        ],
+        "cs": [
+            {
+                "name": "Java Programming Masterclass",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/"
+            },
+            {
+                "name": "Data Structures and Algorithms",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/"
+            }
+            
+        ],
+        "jff": [
+            {
+                "name": "Machine Learning by Stanford",
+                "source": "Coursera",
+                "url": "https://www.coursera.org/learn/machine-learning"
+            },
+            {
+                "name": "The Complete Data Science Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/"
+            },
+            {
+                "name": "The Complete Python Bootcamp",
+                "source": "Udemy",
+                "url": "https://www.udemy.com/course/complete-python-bootcamp/"
+            }
+        ]
+    },
+    "education": {
+        "undergrad": {
+            "program": "Chemical Engineering",
+            "at": "University of Alberta",
+            "url": "https://www.ualberta.ca/chemical-materials-engineering",
+            "summary": "Bachelor of Science in Chemical Engineering with 20-month of Cooperative Work Experience"
+        },
+        "self": {
+            "program": "Software Developer",
+            "at": "Self-taught Online",
+            "summary": "Learning the fundamentals of computer science and programming best practices through online learning."
+        }
+    },
+    "programming": {
+        "working": [
+            "TypeScript / JavaScript",
+            "Sass / CSS",
+            "React",
+            "Redux",
+            "Node.js",
+            "MongoDB",
+            "MySQL / PostgreSQL",
+            "Bash"
+        ],
+        "basic": [
+            "Java",
+            "Python",
+            "Machine Learning",
+            "Data Science",
+            "Dev Ops"
+        ]
+    }
+}

@@ -11,10 +11,10 @@ const Header = () => {
                 <div><b>Chris</b>Kim</div>
             </div>
             <div className="image-links">
-                <i className="fa fa-globe"></i>
-                <i className="fa fa-github"></i>
-                <i className="fa fa-linkedin-square"></i>
-                <i className="fa fa-instagram"></i>
+                <a href="https://ikim1991.github.io/portfolio/" target="_blank"><i className="fa fa-globe"></i></a>
+                <a href="https://github.com/ikim1991/" target="_blank"><i className="fa fa-github"></i></a>
+                <a href="https://linkedin.com/in/ikim91/" target="_blank"><i className="fa fa-linkedin-square"></i></a>
+                <a href="https://instagram.com/ikim91/" target="_blank"><i className="fa fa-instagram"></i></a>
             </div>
         </div>
     )
