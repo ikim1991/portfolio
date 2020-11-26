@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from '../assets/images/profile.jpg';
+import data from './data/about.json';
 
 const About = () => {
     return(
@@ -11,7 +12,7 @@ const About = () => {
                 <img className="profile-image" src={Image} alt="profile-img"/>
                 <div className="aboutme">
                     <h2>About the Developer</h2>
-                    <p>I am ...</p>
+                    {data.summary.map((sum, i) => <p key={i}>{sum}</p>)}
                 </div>
             </div>
         </div>

@@ -11,9 +11,20 @@
 
     .aboutme{
         width: 100%;
-        padding: 3%;
         color: $primary;
         font-family: $font;
-        font-size: 1em;
+        font-size: 1.4rem;
+
+        h2{
+            margin-bottom: 1rem;
+            padding: 0 25px;
+            padding-top: 50px;
+        }
+
+        p{
+            margin-bottom: 2rem;
+            padding: 0 25px;
+            padding-right: 50px;
+        }
     }
 }
