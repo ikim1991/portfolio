@@ -31,12 +31,22 @@
                 width: 100%;
                 text-align: center;
             }
-            img{
+            .project-image{
                 width: 92.5%;
+
+                img{
+                    width: 100%;
+                }
             }
+            
             p{
                 text-align: center;
                 width: 100%;
+            }
+            a{
+                color: $secondary;
+                font-weight: bold;
+                text-decoration: underline;
             }
         }
     }
@@ -50,14 +60,40 @@
     margin: auto;
     bottom: 5%;
 
+    i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 3rem;
+        height: 6rem;
+        font-size: 4rem;
+        font-weight: bold;
+        margin: auto;
+        cursor: pointer;
+        color: $primary;
+    }
+    i:hover{
+        background-color: lighten($secondary, 50)
+    }
+    .left-arrow{
+        left: 2.75%;
+        bottom: 32.5%;
+    }
+    .right-arrow{
+        right: 2.75%;
+        bottom: 32.5%;
+    }
+
     input{
         width: 75%;
+        cursor: pointer;
     }
 
     // Slider Styling from W3Schools
     .slider {
         -webkit-appearance: none;
-        height: 10px;
+        height: 0.5rem;
         border: 1px solid lighten($secondary, 30);
         border-radius: 5px;
         background: lighten($primary, 30);
@@ -70,16 +106,16 @@
     .slider::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 20px;
-        height: 20px;
+        width: 1.2rem;
+        height: 1.2rem;
         border-radius: 50%; 
         background: darken($primary, 5);
         cursor: pointer;
     }
         
     .slider::-moz-range-thumb {
-        width: 20px;
-        height: 20px;
+        width: 1.2rem;
+        height: 1.2rem;
         border-radius: 50%;
         background: $primary;
         cursor: pointer;

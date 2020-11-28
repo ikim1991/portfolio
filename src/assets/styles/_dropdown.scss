@@ -5,10 +5,10 @@
     left: 2.5%;
     color: $light;
     font-size: 1.5em;
-    cursor: pointer;
 }
 
 .bars{
+    cursor: pointer;
     padding: 1px 10px;
     background-color: $primary;
 }
@@ -28,9 +28,9 @@
         text-align: center;
         margin: 0;
         font-size: 0.5em;
-        cursor: pointer;
     }
     p:hover{
+        cursor: pointer;
         background-color: lighten($light, 20);
     }
 }
