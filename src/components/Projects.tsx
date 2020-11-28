@@ -39,7 +39,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-range">
-                <input type="range" min="1" max="5" className="slider" id="projectRange"/>
+                <input type="range" min="1" max="5" defaultValue="1" className="slider" id="projectRange"/>
             </div>
         </div>
     )

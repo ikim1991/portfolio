@@ -10,7 +10,6 @@
 
 .bars{
     padding: 1px 10px;
-    position: absolute;
     background-color: $primary;
 }
 
@@ -18,10 +17,11 @@
     color: darken($light, 10);
 }
 
-.dropdown-items{
+#dropdown-items{
     
     margin-top: 0;
     background-color: darken($light, 10);
+    z-index: 2;
 
     p{
         padding: 0 30px;

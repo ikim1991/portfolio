@@ -24,8 +24,12 @@
         padding: 5% 0;
     }
 
+    #work, #certifications, #education, #programming{
+        visibility: hidden;
+    }
+
     .summary-dropdown{
-        display: none;
+        display: block;
         opacity: 0.8;
         max-height: 260px;
         background-color: $secondary;
