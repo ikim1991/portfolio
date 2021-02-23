@@ -1,33 +1,86 @@
-.contact-content{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+// .contact-content{
+//     width: 100%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
 
-    .contact-me{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-top: 1.25%;
-        width: 97.5%;
-        color: $primary;
+//     .contact-me{
+//         display: grid;
+//         grid-template-columns: 1fr 1fr 1fr 1fr;
+//         margin-top: 1.25%;
+//         width: 97.5%;
+//         color: $primary;
 
-        div{
-            width: 100%;
+//         div{
+//             width: 100%;
+//             color: $primary;
+//             font-size: 2em;
+//             padding: 1.5rem 2rem;
+//             text-align: center;
+
+//             a:last-child{
+//                 color: $primary;
+//                 text-decoration: none;
+//             }
+//         }
+//     }
+
+//     img{
+//         margin-top: 1.25%;
+//         width: 97.5%;
+//         margin-bottom: 1.25%;
+//     }
+// }
+
+@media only screen and (max-width: 1023px){
+    .contact-content{
+        .contact-me{
+            display: grid;
             color: $primary;
-            font-size: 2em;
-            padding: 1.5rem 2rem;
-            text-align: center;
-
-            a:last-child{
+            grid-template-rows: 90px 90px 90px 90px;
+            justify-content: center;
+            align-items: center;;
+    
+            div{
                 color: $primary;
-                text-decoration: none;
+                text-align: center;
+
+                i{
+                    font-size: 1.3em;
+                }
+
+                h3{
+                    font-size: 1.1em;
+                }
+
+                p{
+                    font-size: 1em;
+                }
+    
+                a:last-child{
+                    color: $primary;
+                    text-decoration: none;
+                }
             }
         }
-    }
 
-    img{
-        margin-top: 1.25%;
-        width: 97.5%;
-        margin-bottom: 1.25%;
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 97.5%;
+        }
     }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1919px){
+    
+}
+
+@media screen and (min-width: 1920px){
+    
 }

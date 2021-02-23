@@ -70,7 +70,7 @@ const Resume = () => {
                         <div className="summary-container">
                             <i className="fa fa-newspaper-o"></i>
                             <p>CERTIFICATIONS</p>
-                            <p>+10 Courses Completed</p>
+                            <p>+10 Completed</p>
                         </div>
                         <div id="certifications" className="summary-dropdown">
                             <h3>Web Development</h3>

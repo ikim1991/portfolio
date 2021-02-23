@@ -1,73 +1,15 @@
-.projects-content{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-    .projects{
-        display: grid;
-        width: 95%;
-        height: 90%;
-        border: 2px $primary solid;
-        border-radius: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-
-        .project{
-            display: flex;
-            flex-wrap: wrap;
-            width: 80%;
-            height: 85%;
-            border: 1px $secondary solid;
-            border-radius: 5px;
-            color: $secondary;
-            font-size: 1.25rem;
-            font-family: $font;
-            justify-content: center;
-            align-content: space-evenly;
-            
-            h3{
-                width: 100%;
-                text-align: center;
-            }
-            .project-image{
-                width: 92.5%;
-
-                img{
-                    width: 100%;
-                }
-            }
-            
-            p{
-                text-align: center;
-                width: 100%;
-            }
-            a{
-                color: $secondary;
-                font-weight: bold;
-                text-decoration: underline;
-            }
-        }
-    }
-}
-
 .project-range{
     width: 100%;
     display: flex;
     justify-content: center;
     position: fixed;
     margin: auto;
-    bottom: 5%;
 
     i{
         display: flex;
         justify-content: center;
         align-items: center;
         position: fixed;
-        width: 3rem;
-        height: 6rem;
-        font-size: 4rem;
         font-weight: bold;
         margin: auto;
         cursor: pointer;
@@ -76,17 +18,8 @@
     i:hover{
         background-color: lighten($secondary, 50)
     }
-    .left-arrow{
-        left: 2.75%;
-        bottom: 32.5%;
-    }
-    .right-arrow{
-        right: 2.75%;
-        bottom: 32.5%;
-    }
 
     input{
-        width: 75%;
         cursor: pointer;
     }
 
@@ -119,5 +52,381 @@
         border-radius: 50%;
         background: $primary;
         cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .projects-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .projects{
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+    
+            .project{
+                display: flex;
+                flex-wrap: wrap;
+                width: 85%;
+                height: 80%;
+                border: 1px $secondary solid;
+                border-radius: 5px;
+                color: $secondary;
+                font-size: 1em;
+                font-family: $font;
+                justify-content: center;
+                align-content: space-evenly;
+                
+                h3{
+                    width: 100%;
+                    font-size: 2em;
+                    text-align: center;
+                }
+                .project-image{
+                    width: 90%;
+    
+                    img{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                
+                p{
+                    font-size: 1.2em;
+                    text-align: center;
+                    width: 100%;
+                }
+                a{
+                    font-size: 1em;
+                    color: $secondary;
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .one{
+        display: flex;
+    }
+
+    .two{
+        display: none;
+    }
+    
+    .three{
+        display: none;
+    }
+
+    .project-range{
+        bottom: 3.5%;
+    
+        i{
+            font-size: 3em;
+        }
+        .left-arrow{
+            left: 3.5%;
+            top: 18.5%;
+        }
+        .right-arrow{
+            right: 3.5%;
+            top: 18.5%;
+        }
+    
+        input{
+            width: 85%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1599px){
+    .projects-content{
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        .projects{
+            display: grid;
+            width: 95%;
+            height: 90%;
+            border: 2px $primary solid;
+            border-radius: 10px;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+    
+            .project{
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                height: 85%;
+                border: 1px $secondary solid;
+                border-radius: 5px;
+                color: $secondary;
+                font-size: 1.25rem;
+                font-family: $font;
+                justify-content: center;
+                align-content: space-evenly;
+                
+                h3{
+                    width: 100%;
+                    font-size: 0.9em;
+                    text-align: center;
+                }
+                .project-image{
+                    width: 92.5%;
+                    text-align: center;
+    
+                    img{
+                        width: 80%;
+                    }
+                }
+                
+                p{
+                    font-size: 0.75em;
+                    text-align: center;
+                    width: 100%;
+                }
+                a{
+                    font-size: 0.75em;
+                    color: $secondary;
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .one{
+        display: none;
+    }
+
+    .two{
+        display: flex;
+    }
+    
+    .three{
+        display: none;
+    }
+
+    .project-range{
+        bottom: 5%;
+    
+        i{
+            width: 3rem;
+            height: 6rem;
+            font-size: 4rem;
+        }
+        .left-arrow{
+            left: 2.75%;
+            bottom: 32.5%;
+        }
+        .right-arrow{
+            right: 2.75%;
+            bottom: 32.5%;
+        }
+    
+        input{
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px){
+    .projects-content{
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        .projects{
+            display: grid;
+            width: 95%;
+            height: 90%;
+            border: 2px $primary solid;
+            border-radius: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+    
+            .project{
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                height: 85%;
+                border: 1px $secondary solid;
+                border-radius: 5px;
+                color: $secondary;
+                font-size: 1.25rem;
+                font-family: $font;
+                justify-content: center;
+                align-content: space-evenly;
+                
+                h3{
+                    width: 100%;
+                    font-size: 1em;
+                    text-align: center;
+                }
+                .project-image{
+                    width: 92.5%;
+                    text-align: center;
+    
+                    img{
+                        width: 100%;
+                    }
+                }
+                
+                p{
+                    font-size: 0.9em;
+                    text-align: center;
+                    width: 100%;
+                }
+                a{
+                    font-size: 0.9em;
+                    color: $secondary;
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .one{
+        display: none;
+    }
+
+    .two{
+        display: none;
+    }
+    
+    .three{
+        display: flex;
+    }
+
+    .project-range{
+        bottom: 5%;
+    
+        i{
+            width: 3rem;
+            height: 6rem;
+            font-size: 4rem;
+        }
+        .left-arrow{
+            left: 2.75%;
+            bottom: 32.5%;
+        }
+        .right-arrow{
+            right: 2.75%;
+            bottom: 32.5%;
+        }
+    
+        input{
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .projects-content{
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        .projects{
+            display: grid;
+            width: 95%;
+            height: 90%;
+            border: 2px $primary solid;
+            border-radius: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+    
+            .project{
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                height: 85%;
+                border: 1px $secondary solid;
+                border-radius: 5px;
+                color: $secondary;
+                font-size: 1.25rem;
+                font-family: $font;
+                justify-content: center;
+                align-content: space-evenly;
+                
+                h3{
+                    width: 100%;
+                    text-align: center;
+                }
+                .project-image{
+                    width: 92.5%;
+    
+                    img{
+                        width: 100%;
+                    }
+                }
+                
+                p{
+                    text-align: center;
+                    width: 100%;
+                }
+                a{
+                    color: $secondary;
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .one{
+        display: none;
+    }
+    
+    .two{
+        display: none;
+    }
+
+    .three{
+        display: flex;
+    }
+
+    .project-range{
+        bottom: 5%;
+    
+        i{
+            width: 3rem;
+            height: 6rem;
+            font-size: 4rem;
+        }
+        .left-arrow{
+            left: 2.75%;
+            bottom: 32.5%;
+        }
+        .right-arrow{
+            right: 2.75%;
+            bottom: 32.5%;
+        }
+    
+        input{
+            width: 75%;
+        }
     }
 }

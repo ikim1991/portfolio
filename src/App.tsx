@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import Contact from './components/contact';
 import { useSelector } from 'react-redux';
 import { AppState } from './store/store';
+import DropdownBar from './components/DropdownBar';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
     return(
         <div className='App'>
             <Header/>
+            <DropdownBar/>
             {(page === 'HOME') && (
                 <Fragment>
                     <Title/>

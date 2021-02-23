@@ -1,10 +1,10 @@
 .about-content{
     display: grid;
-    grid-template-columns: 40% 60%;
+    // grid-template-columns: 40% 60%;
 
     .profile-image{
-        width: 85%;
-        height: 85%;
+        // width: 85%;
+        // height: 85%;
         justify-self: center;
         align-self: center;
     }
@@ -13,18 +13,53 @@
         width: 100%;
         color: $primary;
         font-family: $font;
-        font-size: 1.4rem;
+        // font-size: 1.4rem;
 
-        h2{
-            margin-bottom: 1rem;
-            padding: 0 25px;
-            padding-top: 50px;
+        // h2{
+        //     margin-bottom: 1rem;
+        //     padding: 0 25px;
+        //     padding-top: 50px;
+        // }
+
+        // p{
+        //     margin-bottom: 2rem;
+        //     padding: 0 25px;
+        //     padding-right: 50px;
+        // }
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .about-content{
+    
+        .profile-image{
+            width: 90%;
+            margin-top: 1em;
         }
-
-        p{
-            margin-bottom: 2rem;
-            padding: 0 25px;
-            padding-right: 50px;
+    
+        .aboutme{
+            font-size: 1em;
+    
+            h2{
+                padding: 1em;
+            }
+    
+            p{
+                padding: 1em;
+                padding-top: 0;
+            }
         }
     }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1919px){
+    
+}
+
+@media screen and (min-width: 1920px){
+    
 }

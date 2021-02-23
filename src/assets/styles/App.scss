@@ -31,6 +31,23 @@ a{
 @import 'main.scss';
 
 
+@media only screen and (max-width: 1023px){
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+    
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1919px){
+    
+}
+
+@media screen and (min-width: 1920px){
+    
+}
+
+
 // Custom Scrollbar from w3schools.com
 /* width */
 ::-webkit-scrollbar {

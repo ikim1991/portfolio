@@ -2,7 +2,6 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import Icon from '../assets/images/favicon.png';
 import { navigateHome } from '../store/actions/NavigationActions';
-import DropdownBar from './DropdownBar';
 
 const Header = () => {
 
@@ -13,7 +12,6 @@ const Header = () => {
 
     return(
         <div className="header">
-            <DropdownBar/>
             <img className="icon" src={Icon} alt="ck" onClick={navigateToHome}/>
             <div className="chriskim" onClick={navigateToHome}>
                 <div><b>Chris</b>Kim</div>

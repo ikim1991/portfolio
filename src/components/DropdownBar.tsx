@@ -27,7 +27,6 @@ const DropdownBar = () => {
             default:
                 return dispatch(navigateHome())
         }
-        
     }
 
     return(
