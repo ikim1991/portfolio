@@ -30,8 +30,8 @@ const DropdownBar = () => {
     }
 
     return(
-        <div className="dropdown">
-            <i className="fa fa-bars bars" onMouseOver={showDropdown} onMouseOut={hideDropdown}></i>
+        <div className="dropdown" onMouseOver={showDropdown} onMouseOut={hideDropdown}>
+            <i className="fa fa-bars bars"></i>
             <div id="dropdown-items" className="hidden" onMouseOver={showDropdown} onMouseOut={hideDropdown}>
                 <p onClick={navigatePage}>About</p>
                 <p onClick={navigatePage}>Projects</p>

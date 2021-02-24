@@ -1,29 +1,29 @@
 .dropdown{
     position: absolute;
-    display: grid;
+    display: flex;
     color: $light;
-}
-
-.bars{
+    align-items: center;
     cursor: pointer;
-    padding: 1px 10px;
 }
 
-.bars:hover{
-    color: darken($light, 10);
+.dropdown:hover{
+    .bars{
+        color: darken($light, 20);
+    }
+    
 }
 
 #dropdown-items{
     display: none;
+    position: absolute;
     margin-top: 0;
-    background-color: darken($light, 10);
+    background-color: darken($light, 20);
     z-index: 2;
 
     p{
-        padding: 0 30px;
+        
         text-align: center;
         margin: 0;
-        font-size: 0.5em;
     }
     p:hover{
         cursor: pointer;
@@ -33,46 +33,80 @@
 
 @media only screen and (max-width: 1023px){
     .dropdown{
-        top: 1%;
-        left: 1%;
-        font-size: 2em;
-        text-align: left;
+        height: 17.5%;
+
+        i{
+            padding: 0 35px;
+            font-size: 2.25em;
+        }
     }
 
     #dropdown-items{
-        margin-top: 0;
-        background-color: darken($light, 10);
-        z-index: 2;
-    
+        top: 100%;
+
         p{
-            font-size: 0.75em;
+            padding: 2.5px 15px;
+            font-size: 2em;
         }
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1366px){
     .dropdown{
-        top: 13.5%;
-        left: 1.5%;
-        font-size: 2.5em;
-        text-align: left;
+        height: 15.75%;
+
+        i{
+            padding: 0 35px;
+            font-size: 2.5em;
+        }
     }
 
     #dropdown-items{
-        margin-top: 0;
-        background-color: darken($light, 10);
-        z-index: 2;
-    
+        top: 100%;
+
         p{
-            font-size: 0.8em;
+            padding: 5px 25px;
+            font-size: 2.25em;
         }
     }
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1919px){
-    
+    .dropdown{
+        height: 15.3125%;
+
+        i{
+            padding: 0 35px;
+            font-size: 2.75em;
+        }
+    }
+
+    #dropdown-items{
+        top: 100%;
+
+        p{
+            padding: 7.5px 30px;
+            font-size: 2.25em;
+        }
+    }
 }
 
 @media screen and (min-width: 1920px){
-    
+    .dropdown{
+        height: 14.875%;
+
+        i{
+            padding: 0 35px;
+            font-size: 3em;
+        }
+    }
+
+    #dropdown-items{
+        top: 100%;
+
+        p{
+            padding: 10px 35px;
+            font-size: 2.5em;
+        }
+    }
 }

@@ -18,7 +18,6 @@ const App = () => {
     return(
         <div className='App'>
             <Header/>
-            <DropdownBar/>
             {(page === 'HOME') && (
                 <Fragment>
                     <Title/>
@@ -26,16 +25,29 @@ const App = () => {
                 </Fragment>
             )}
             {(page === 'ABOUT') && (
-                <About/>
+                <Fragment>
+                    <DropdownBar/>
+                    <About/>
+                </Fragment>
+                
             )}
             {(page === 'PROJECTS') && (
-                <Projects/>
+                <Fragment>
+                    <DropdownBar/>
+                    <Projects/>
+                </Fragment>
             )}
             {(page === 'RESUME') && (
-                <Resume/>
+                <Fragment>
+                    <DropdownBar/>
+                    <Resume/>
+                </Fragment>
             )}
             {(page === 'CONTACT') && (
-                <Contact/>
+                <Fragment>
+                    <DropdownBar/>
+                    <Contact/>
+                </Fragment>
             )}
         </div>
     )
