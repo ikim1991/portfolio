@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { DOMElement } from 'react';
 import { useDispatch } from 'react-redux';
 import { navigateAbout, navigateProjects, navigateResume, navigateContact, navigateHome } from '../store/actions/NavigationActions';
 
@@ -6,12 +6,12 @@ const DropdownBar = () => {
 
     const dispatch = useDispatch();
 
-    const showDropdown = (e: React.MouseEvent<HTMLIFrameElement>) => {
-        document.querySelector('#dropdown-items')!.classList.remove("hidden")
+    const showDropdown = (e: React.MouseEvent<HTMLElement>) => {
+        document.querySelector<HTMLElement>('#dropdown-items')!.style.display = 'block';
     }
 
-    const hideDropdown = (e: React.MouseEvent<HTMLIFrameElement>) => {
-        document.querySelector('#dropdown-items')!.classList.add("hidden")
+    const hideDropdown = (e: React.MouseEvent<HTMLElement>) => {
+        document.querySelector<HTMLElement>('#dropdown-items')!.style.display = 'none';
     }
 
     const navigatePage = (e: React.MouseEvent<HTMLParagraphElement>) => {

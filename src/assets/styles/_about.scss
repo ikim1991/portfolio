@@ -38,13 +38,14 @@
         }
     
         .aboutme{
-            font-size: 1em;
     
             h2{
+                font-size: 1.25em;
                 padding: 1em;
             }
     
             p{
+                font-size: 1em;
                 padding: 1em;
                 padding-top: 0;
             }
@@ -53,13 +54,75 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1366px){
+    .about-content{
+        grid-template-columns: 40% 60%;
+
+        .profile-image{
+            width: 90%;
+            margin-top: 1em;
+        }
     
+        .aboutme{
+    
+            h2{
+                font-size: 1.25em;
+                padding: 1em;
+            }
+    
+            p{
+                font-size: 1em;
+                padding: 1em;
+                padding-top: 0;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1919px){
+    .about-content{
+        grid-template-columns: 40% 60%;
+
+        .profile-image{
+            width: 90%;
+            margin-top: 1em;
+        }
     
+        .aboutme{
+    
+            h2{
+                font-size: 1.3em;
+                padding: 1em;
+            }
+    
+            p{
+                font-size: 1.1em;
+                padding: 1em;
+                padding-top: 0;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1920px){
+    .about-content{
+        grid-template-columns: 40% 60%;
+
+        .profile-image{
+            width: 85%;
+        }
     
+        .aboutme{
+    
+            h2{
+                font-size: 2em;
+                padding: 1em;
+            }
+    
+            p{
+                font-size: 1.5em;
+                padding: 1em;
+                padding-top: 0;
+            }
+        }
+    }
 }

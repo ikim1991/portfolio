@@ -1,8 +1,7 @@
 .project-range{
-    width: 100%;
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     margin: auto;
 
     i{
@@ -60,6 +59,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100%;
     
         .projects{
             display: grid;
@@ -73,7 +73,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 width: 85%;
-                height: 80%;
+                height: 85%;
                 border: 1px $secondary solid;
                 border-radius: 5px;
                 color: $secondary;
@@ -124,80 +124,80 @@
     }
 
     .project-range{
-        bottom: 3.5%;
+        width: 80%;
+        left: 10%;
+        bottom: 2.5%;
     
         i{
-            font-size: 3em;
+            font-size: 2em;
         }
         .left-arrow{
-            left: 3.5%;
-            top: 18.5%;
+            left: 2.5%;
+            bottom: 77.5%;
         }
         .right-arrow{
-            right: 3.5%;
-            top: 18.5%;
+            right: 2.5%;
+            bottom: 77.5%;
         }
     
         input{
-            width: 85%;
+            width: 100%;
         }
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1599px){
+@media screen and (min-width: 1024px) and (max-width: 1399px){
     .projects-content{
         display: flex;
-        position: relative;
-        top: 0;
-        left: 0;
         width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
     
         .projects{
             display: grid;
-            width: 95%;
-            height: 90%;
+            width: 90%;
+            height: 95%;
             border: 2px $primary solid;
             border-radius: 10px;
             grid-template-columns: 1fr 1fr;
             justify-items: center;
-            align-items: center;
     
             .project{
                 display: flex;
                 flex-wrap: wrap;
                 width: 80%;
                 height: 85%;
+                margin-top: 15px;
                 border: 1px $secondary solid;
                 border-radius: 5px;
                 color: $secondary;
-                font-size: 1.25rem;
+                font-size: 1.25em;
                 font-family: $font;
                 justify-content: center;
                 align-content: space-evenly;
                 
                 h3{
                     width: 100%;
-                    font-size: 0.9em;
+                    font-size: 1em;
                     text-align: center;
                 }
                 .project-image{
-                    width: 92.5%;
+                    width: 90%;
                     text-align: center;
     
                     img{
-                        width: 80%;
+                        width: 100%;
                     }
                 }
                 
                 p{
-                    font-size: 0.75em;
+                    font-size: 0.9em;
                     text-align: center;
                     width: 100%;
                 }
                 a{
-                    font-size: 0.75em;
+                    font-size: 0.9em;
                     color: $secondary;
                     font-weight: bold;
                     text-decoration: underline;
@@ -219,53 +219,52 @@
     }
 
     .project-range{
-        bottom: 5%;
+        width: 100%;
+        bottom: 4.5%;
     
         i{
-            width: 3rem;
-            height: 6rem;
-            font-size: 4rem;
+            width: 1em;
+            height: 1em;
+            font-size: 2.25em;
         }
         .left-arrow{
-            left: 2.75%;
-            bottom: 32.5%;
+            left: 1%;
+            bottom: 35%;
         }
         .right-arrow{
-            right: 2.75%;
-            bottom: 32.5%;
+            right: 1%;
+            bottom: 35%;
         }
     
         input{
-            width: 75%;
+            width: 80%;
         }
     }
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1919px){
+@media screen and (min-width: 1400px) and (max-width: 1919px){
     .projects-content{
         display: flex;
-        position: relative;
-        top: 0;
-        left: 0;
         width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
     
         .projects{
             display: grid;
-            width: 95%;
-            height: 90%;
+            width: 90%;
+            height: 95%;
             border: 2px $primary solid;
             border-radius: 10px;
             grid-template-columns: 1fr 1fr 1fr;
             justify-items: center;
-            align-items: center;
     
             .project{
                 display: flex;
                 flex-wrap: wrap;
                 width: 80%;
                 height: 85%;
+                margin-top: 15px;
                 border: 1px $secondary solid;
                 border-radius: 5px;
                 color: $secondary;
@@ -280,7 +279,7 @@
                     text-align: center;
                 }
                 .project-image{
-                    width: 92.5%;
+                    width: 90%;
                     text-align: center;
     
                     img{
@@ -316,24 +315,25 @@
     }
 
     .project-range{
-        bottom: 5%;
+        width: 100%;
+        bottom: 4.5%;
     
         i{
-            width: 3rem;
-            height: 6rem;
-            font-size: 4rem;
+            width: 1em;
+            height: 1em;
+            font-size: 2.25em;
         }
         .left-arrow{
-            left: 2.75%;
-            bottom: 32.5%;
+            left: 1%;
+            bottom: 35%;
         }
         .right-arrow{
-            right: 2.75%;
-            bottom: 32.5%;
+            right: 1%;
+            bottom: 35%;
         }
     
         input{
-            width: 75%;
+            width: 80%;
         }
     }
 }
@@ -341,42 +341,42 @@
 @media screen and (min-width: 1920px){
     .projects-content{
         display: flex;
-        position: relative;
-        top: 0;
-        left: 0;
         width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
     
         .projects{
             display: grid;
-            width: 95%;
-            height: 90%;
+            width: 90%;
+            height: 95%;
             border: 2px $primary solid;
             border-radius: 10px;
             grid-template-columns: 1fr 1fr 1fr;
             justify-items: center;
-            align-items: center;
     
             .project{
                 display: flex;
                 flex-wrap: wrap;
                 width: 80%;
                 height: 85%;
+                margin-top: 15px;
                 border: 1px $secondary solid;
                 border-radius: 5px;
                 color: $secondary;
-                font-size: 1.25rem;
+                font-size: 1.5em;
                 font-family: $font;
                 justify-content: center;
                 align-content: space-evenly;
                 
                 h3{
                     width: 100%;
+                    font-size: 1.25em;
                     text-align: center;
                 }
                 .project-image{
-                    width: 92.5%;
+                    width: 90%;
+                    text-align: center;
     
                     img{
                         width: 100%;
@@ -384,10 +384,12 @@
                 }
                 
                 p{
+                    font-size: 1em;
                     text-align: center;
                     width: 100%;
                 }
                 a{
+                    font-size: 1em;
                     color: $secondary;
                     font-weight: bold;
                     text-decoration: underline;
@@ -399,34 +401,35 @@
     .one{
         display: none;
     }
-    
+
     .two{
         display: none;
     }
-
+    
     .three{
         display: flex;
     }
 
     .project-range{
-        bottom: 5%;
+        width: 100%;
+        bottom: 4.5%;
     
         i{
-            width: 3rem;
-            height: 6rem;
-            font-size: 4rem;
+            width: 1em;
+            height: 1em;
+            font-size: 3em;
         }
         .left-arrow{
-            left: 2.75%;
-            bottom: 32.5%;
+            left: 1%;
+            bottom: 35%;
         }
         .right-arrow{
-            right: 2.75%;
-            bottom: 32.5%;
+            right: 1%;
+            bottom: 35%;
         }
     
         input{
-            width: 75%;
+            width: 80%;
         }
     }
 }
