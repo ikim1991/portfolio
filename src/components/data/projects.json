@@ -4,28 +4,28 @@
             "title": "Online Chess",
             "deployed": "https://ikim1991.github.io/online-chess/",
             "github": "https://github.com/ikim1991/online-chess/",
-            "documentation": "https://github.io/ikim1991/documentation/",
+            "documentation": "https://ikim1991.github.io/coding-documentation/#/online-chess/",
             "imageUrl": "https://raw.githubusercontent.com/ikim1991/portfolio/master/src/assets/images/chess.jpg"
         },
         {
             "title": "My Dashboard",
             "deployed": "https://ikim1991.github.io/my-dashboard-app/",
             "github": "https://github.com/ikim1991/my-dashboard-app/",
-            "documentation": "https://github.io/ikim1991/documentation/",
+            "documentation": "https://ikim1991.github.io/coding-documentation/#/dashboard/",
             "imageUrl": "https://raw.githubusercontent.com/ikim1991/portfolio/master/src/assets/images/dashboard.jpeg"
         },
         {
             "title": "My Golf Tracker",
             "deployed": "https://ikim1991.github.io/my-golf-tracker/",
             "github": "https://github.com/ikim1991/my-golf-tracker/",
-            "documentation": "https://github.io/ikim1991/documentation/",
+            "documentation": "https://ikim1991.github.io/coding-documentation/#/golf-tracker/",
             "imageUrl": "https://raw.githubusercontent.com/ikim1991/portfolio/master/src/assets/images/golf.jpg"
         },
         {
             "title": "Interactive Blackjack App",
             "deployed": "https://ikim1991.github.io/interactive-blackjack-app/",
             "github": "https://github.com/ikim1991/interactive-blackjack-app/",
-            "documentation": "https://github.io/ikim1991/documentation/",
+            "documentation": "https://ikim1991.github.io/coding-documentation/#/blackjack/",
             "imageUrl": "https://raw.githubusercontent.com/ikim1991/portfolio/master/src/assets/images/blackjack.jpg"
         }
     ]
