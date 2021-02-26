@@ -91,7 +91,7 @@ const Resume = () => {
                         <div id="education" className="summary-dropdown" onMouseOver={showDropdownInfo} onMouseOut={hideDropdownInfo}>
                             <h3>Undergraduate</h3>
                             <a href={data.education.undergrad.url} target="_blank"><p><strong>{data.education.undergrad.program}</strong> at <strong>{data.education.undergrad.at}</strong></p></a>
-                            <h3>Self Taught</h3>
+                            <h3>e-Learning</h3>
                             <p><strong>{data.education.self.program}</strong> at <strong>{data.education.self.at}</strong></p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Resume = () => {
                         <div className="summary-container" onMouseOver={showDropdownInfo} onMouseOut={hideDropdownInfo}>
                             <i className="fa fa-laptop"></i>
                             <p>PROGRAMMING</p>
-                            <p>+3 Years</p>
+                            <p>+2 Years</p>
                         </div>
                         <div id="programming" className="summary-dropdown" onMouseOver={showDropdownInfo} onMouseOut={hideDropdownInfo}>
                             <h3>Work Knowledge</h3>
@@ -132,7 +132,7 @@ const Resume = () => {
                     <div className="educations">
                         <div>
                             <h4>{data.education.self.at}</h4>
-                            <h5><i>2017 - Present</i></h5>
+                            <h5><i>2018 - Present</i></h5>
                         </div>
                         <div>
                             <h4>{data.education.self.program}</h4>
