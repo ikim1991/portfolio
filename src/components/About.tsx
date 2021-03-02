@@ -13,6 +13,10 @@ const About = () => {
                 <div className="aboutme">
                     <h2>About the Developer</h2>
                     {data.summary.map((sum, i) => <p key={i}>{sum}</p>)}
+                    <h2>My Developer Environment</h2>
+                    <p><strong>Operating System:</strong><br/>Windows | Linux (WSL2 & VirtualBox - Ubuntu)</p>
+                    <p><strong>Text Editor:</strong><br/>Visual Studio Code | Atom</p>
+                    <p><strong>Runtime Environment:</strong><br/>Node | Python | Bash | MongoDB | MySQL | Git | Postman</p>
                 </div>
             </div>
         </div>
