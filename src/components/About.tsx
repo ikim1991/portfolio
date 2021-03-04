@@ -14,9 +14,9 @@ const About = () => {
                     <h2>About the Developer</h2>
                     {data.summary.map((sum, i) => <p key={i}>{sum}</p>)}
                     <h2>My Developer Environment</h2>
-                    <p><strong>Operating System:</strong><br/>Windows | Linux (WSL2 & VirtualBox - Ubuntu)</p>
-                    <p><strong>Text Editor:</strong><br/>Visual Studio Code | Atom</p>
-                    <p><strong>Runtime Environment:</strong><br/>Node | Python | Bash | MongoDB | MySQL | Git | Postman | Google Chrome | Heroku</p>
+                    <p><strong>Operating System:</strong><br/>Windows | Linux (Ubuntu on WSL & VirtualBox)</p>
+                    <p><strong>Text Editor:</strong><br/>Visual Studio Code</p>
+                    <p><strong>Runtime Environment:</strong><br/>Node | Python | Bash | MongoDB | MySQL | Redis | Git | Postman | Google Chrome | Heroku</p>
                 </div>
             </div>
         </div>
