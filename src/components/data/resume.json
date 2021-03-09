@@ -126,8 +126,10 @@
             "React",
             "Redux",
             "Node.js",
+            "Express",
             "MongoDB",
             "MySQL / PostgreSQL",
+            "Redis",
             "Bash"
         ],
         "basic": [
