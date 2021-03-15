@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import data from './data/projects.json';
 
 const Projects = () => {
@@ -36,7 +36,7 @@ const Projects = () => {
                         {data.projects.map((project, i) => {
                             if((i === slider) || (i === slider+1) || (i === slider+2)){
                                 return(
-                                    <div className="project" key={i}>
+                                    <div className="project project-animation" key={i}>
                                         <h3>{project.title}</h3>
                                         <div className="project-image">
                                             <img src={project.imageUrl} alt="project-icon"/>
@@ -59,7 +59,7 @@ const Projects = () => {
                         {data.projects.map((project, i) => {
                             if((i === slider) || (i === slider+1)){
                                 return(
-                                    <div className="project" key={i}>
+                                    <div className="project project-animation" key={i}>
                                         <h3>{project.title}</h3>
                                         <div className="project-image">
                                             <img src={project.imageUrl} alt="project-icon"/>
@@ -82,7 +82,7 @@ const Projects = () => {
                         {data.projects.map((project, i) => {
                             if(i === slider){
                                 return(
-                                    <div className="project" key={i}>
+                                    <div className="project project-animation" key={i}>
                                         <h3>{project.title}</h3>
                                         <div className="project-image">
                                             <img src={project.imageUrl} alt="project-icon"/>

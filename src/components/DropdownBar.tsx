@@ -1,10 +1,12 @@
 import React, { DOMElement } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { navigateAbout, navigateProjects, navigateResume, navigateContact, navigateHome } from '../store/actions/NavigationActions';
+import { AppState } from '../store/store';
 
 const DropdownBar = () => {
 
     const dispatch = useDispatch();
+    const { page } = useSelector((state: AppState) => state.navigation)
 
     const showDropdown = (e: React.MouseEvent<HTMLElement>) => {
         document.querySelector<HTMLElement>('#dropdown-items')!.style.display = 'block';
@@ -17,13 +19,25 @@ const DropdownBar = () => {
     const navigatePage = (e: React.MouseEvent<HTMLParagraphElement>) => {
         switch(e.currentTarget.innerHTML){
             case 'About':
-                return dispatch(navigateAbout())
+                if(e.currentTarget.innerHTML.toUpperCase() != page){
+                    return dispatch(navigateAbout())
+                }
+                return
             case 'Projects':
-                return dispatch(navigateProjects())
+                if(e.currentTarget.innerHTML.toUpperCase() != page){
+                    return dispatch(navigateProjects())
+                }
+                return
             case 'Resume':
-                return dispatch(navigateResume())
+                if(e.currentTarget.innerHTML.toUpperCase() != page){
+                    return dispatch(navigateResume())
+                }
+                return
             case 'Contact':
-                return dispatch(navigateContact())
+                if(e.currentTarget.innerHTML.toUpperCase() != page){
+                    return dispatch(navigateContact())
+                }
+                return
             default:
                 return dispatch(navigateHome())
         }

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import './assets/styles/App.scss';
 import Header from './components/Header';
 import Title from './components/Title';
@@ -10,16 +10,30 @@ import Contact from './components/contact';
 import { useSelector } from 'react-redux';
 import { AppState } from './store/store';
 import DropdownBar from './components/DropdownBar';
+import Home from './components/Home';
 
 const App = () => {
 
     const { page } = useSelector((state: AppState) => state.navigation)
+
+    useEffect(() => {
+
+        const el = document.querySelector('.header')
+
+        if(page === 'HOME'){
+            el!.style.background = "none"
+        } else{
+            el!.style.background = "#111111"
+        }
+
+    }, [page])
 
     return(
         <div className='App'>
             <Header/>
             {(page === 'HOME') && (
                 <Fragment>
+                    <Home/>
                     <Title/>
                     <Navigation/>
                 </Fragment>

@@ -1,8 +1,14 @@
+@keyframes fadeInHeader{
+    from{ opacity: 0 }
+    to{ opacity: 1 }
+}
+
 .header{
     display: flex;
     align-items: center;
     font-family: $font;
-    color: $dark;
+    color: $light;
+    animation: fadeInHeader 1.25s ease-in;
 
     img{
         cursor: pointer;
@@ -20,10 +26,10 @@
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        color: $primary;
+        color: $light;
 
         a{
-            color: $primary;
+            color: $light;
             text-decoration: none;
         }
 
@@ -33,7 +39,7 @@
         }
 
         i:hover{
-            background-color: lighten($light, 10);
+            background-color: lighten($dark, 50);
         }
     }
 }

@@ -1,10 +1,16 @@
+@keyframes fadeInTitle{
+    from{ opacity: 0 }
+    to{ opacity: 1 }
+}
+
 .title{
+    position: absolute;
     width: 100%;
     display: grid;
     justify-items: center;
-    background-color: $primary;
     color: $light;
     font-family: $font;
+    animation: fadeInTitle 3s ease-in;
 
     h1{
         margin: 0;
@@ -27,25 +33,8 @@
         }
 
         i:hover{
-            background-color: lighten($primary, 10);
+            background-color: lighten($dark, 50);
         }
-    }
-
-    .info-button{
-        width: 10%;
-        height: 35%;
-        align-self: center;
-        font-family: $font;
-        font-weight: bold;
-        cursor: pointer;
-        color: $light;
-        background-color: darken($primary, 5);
-        border: 1px solid $light;
-        border-radius: 5%;
-    }
-
-    .info-button:hover{
-        background-color: lighten($secondary, 25);
     }
 }
 
@@ -67,12 +56,6 @@
                 font-size: 2.25em;
             }
         }
-    
-        .info-button{
-            width: 120px;
-            height: 55px;
-            font-size: 1.25em;
-        }
     }
 }
 
@@ -82,23 +65,17 @@
         height: 40%;
     
         h1{
-            font-size: 1.4em;
+            font-size: 2em;
         }
         h2{
-            font-size: 1.2em;
+            font-size: 1.5em;
         }
     
         .image-links{
     
             i{
-                font-size: 1.7em;
+                font-size: 2.5em;
             }
-        }
-    
-        .info-button{
-            width: 120px;
-            height: 40px;
-            font-size: 1em;
         }
     }
 }
@@ -109,23 +86,17 @@
         height: 42.5%;
     
         h1{
-            font-size: 1.75em;
+            font-size: 2.25em;
         }
         h2{
-            font-size: 1.5em;
+            font-size: 1.75em;
         }
     
         .image-links{
     
             i{
-                font-size: 1.75em;
+                font-size: 2.75em;
             }
-        }
-    
-        .info-button{
-            width: 130px;
-            height: 40px;
-            font-size: 1.25em;
         }
     }
 }
@@ -139,7 +110,7 @@
             font-size: 2.5em;
         }
         h2{
-            font-size: 2.25em;
+            font-size: 2em;
         }
     
         .image-links{
@@ -147,12 +118,6 @@
             i{
                 font-size: 3em;
             }
-        }
-    
-        .info-button{
-            width: 175px;
-            height: 55px;
-            font-size: 1.75em;
         }
     }
 }

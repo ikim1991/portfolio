@@ -1,31 +1,40 @@
+@keyframes topBottom{
+    from{ bottom: 100%; opacity: 0 }
+    to{ bottom: 0; opacity: 1 }
+}
+
+@keyframes rightLeft{
+    from { right: -100% }
+    to { right: 0 }
+}
+
 .about-content{
     display: grid;
-    // grid-template-columns: 40% 60%;
 
     .profile-image{
-        // width: 85%;
-        // height: 85%;
+        position: relative;
         justify-self: center;
         align-self: center;
+        animation: topBottom 1.25s ease-in-out backwards;
     }
 
     .aboutme{
         width: 100%;
-        color: $primary;
+        color: $dark;
         font-family: $font;
-        // font-size: 1.4rem;
+        
+        div{
+            position: relative;
+        }
+    }
 
-        // h2{
-        //     margin-bottom: 1rem;
-        //     padding: 0 25px;
-        //     padding-top: 50px;
-        // }
-
-        // p{
-        //     margin-bottom: 2rem;
-        //     padding: 0 25px;
-        //     padding-right: 50px;
-        // }
+    $elements: 9;
+    @for $i from 0 to $elements {
+        .aboutme{
+            div:nth-child(#{$i}) {
+                animation: rightLeft 0.1s ease backwards (1s + ($i * 0.1s));
+            }
+        }
     }
 }
 

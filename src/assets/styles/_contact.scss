@@ -1,16 +1,36 @@
+@keyframes fadeContact{
+    from{ opacity: 0 }
+    to{ opacity: 1 }
+}
+
+.contact-content{
+    img{
+        animation: fadeContact 1.25s ease-in-out backwards 0.25s;
+    }
+
+    $el: 5;
+    @for $j from 0 to $el {
+        .contact-me{
+            div:nth-child(#{$j}) {
+                animation: fadeContact 0.5s ease backwards (0.25s + ($j * 0.2s));
+            }
+        }
+    }
+}
 
 @media only screen and (max-width: 1023px){
     .contact-content{
         .contact-me{
             display: grid;
-            color: $primary;
+            color: $dark;
             grid-template-rows: 90px 90px 90px 90px;
             justify-content: center;
             align-items: center;;
     
             div{
-                color: $primary;
+                color: $dark;
                 text-align: center;
+                margin: 25px 0;
 
                 i{
                     font-size: 1.3em;
@@ -25,7 +45,7 @@
                 }
     
                 a:last-child{
-                    color: $primary;
+                    color: $dark;
                     text-decoration: none;
                 }
             }
@@ -51,13 +71,14 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             width: 97.5%;
-            color: $primary;
+            color: $dark;
     
             div{
                 width: 100%;
-                color: $primary;
+                color: $dark;
                 text-align: center;
                 padding: 15px 0;
+                margin: 25px 0;
 
                 i{
                     font-size: 1.3em;
@@ -72,7 +93,7 @@
                 }
     
                 a:last-child{
-                    color: $primary;
+                    color: $dark;
                     text-decoration: none;
                 }
             }
@@ -98,13 +119,14 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             width: 97.5%;
-            color: $primary;
-    
+            color: $dark;
+            
             div{
                 width: 100%;
-                color: $primary;
+                color: $dark;
                 text-align: center;
                 padding: 15px 0;
+                margin: 35px 0;
 
                 i{
                     font-size: 1.3em;
@@ -119,7 +141,7 @@
                 }
     
                 a:last-child{
-                    color: $primary;
+                    color: $dark;
                     text-decoration: none;
                 }
             }
@@ -145,11 +167,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             width: 97.5%;
-            color: $primary;
+            color: $dark;
     
             div{
                 width: 100%;
-                color: $primary;
+                color: $dark;
                 text-align: center;
                 padding: 35px 0;
 
@@ -166,7 +188,7 @@
                 }
     
                 a:last-child{
-                    color: $primary;
+                    color: $dark;
                     text-decoration: none;
                 }
             }

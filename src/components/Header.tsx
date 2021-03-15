@@ -1,17 +1,22 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Icon from '../assets/images/favicon.png';
 import { navigateHome } from '../store/actions/NavigationActions';
+import { AppState } from '../store/store';
 
 const Header = () => {
 
     const dispatch = useDispatch()
+    const { page } = useSelector((state: AppState) => state.navigation)
+
     const navigateToHome = (e: React.MouseEvent<HTMLIFrameElement> | React.MouseEvent<HTMLImageElement>) => {
-        dispatch(navigateHome())
+        if(page != 'HOME'){
+            dispatch(navigateHome())
+        }
     }
 
     return(
-        <div className="header">
+        <div className="header" key={Math.random()}>
             <img className="icon" src={Icon} alt="ck" onClick={navigateToHome}/>
             <div className="chriskim" onClick={navigateToHome}>
                 <div><b>Chris</b>Kim</div>
